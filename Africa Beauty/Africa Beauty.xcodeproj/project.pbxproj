@@ -18,6 +18,9 @@
 		F3071BB8288743FC003D55DE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BB7288743FC003D55DE /* CardView.swift */; };
 		F3071BBA28874A73003D55DE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BB928874A73003D55DE /* HeaderView.swift */; };
 		F3071BBC2887504F003D55DE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BBB2887504F003D55DE /* FooterView.swift */; };
+		F3071BBF2887579D003D55DE /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BBE2887579D003D55DE /* HeaderComponent.swift */; };
+		F3071BC1288758DB003D55DE /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BC0288758DB003D55DE /* GuideComponent.swift */; };
+		F3071BC328875BEE003D55DE /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BC228875BEE003D55DE /* GuideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		F3071BB7288743FC003D55DE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F3071BB928874A73003D55DE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		F3071BBB2887504F003D55DE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		F3071BBE2887579D003D55DE /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		F3071BC0288758DB003D55DE /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		F3071BC228875BEE003D55DE /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		F3071B9C288737E9003D55DE /* Africa Beauty */ = {
 			isa = PBXGroup;
 			children = (
+				F3071BBD288756E2003D55DE /* Component */,
 				F3071BB6288743AB003D55DE /* View */,
 				F3071BB528874314003D55DE /* Data */,
 				F3071BB228874264003D55DE /* Model */,
@@ -110,8 +117,18 @@
 				F3071BB7288743FC003D55DE /* CardView.swift */,
 				F3071BB928874A73003D55DE /* HeaderView.swift */,
 				F3071BBB2887504F003D55DE /* FooterView.swift */,
+				F3071BC228875BEE003D55DE /* GuideView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F3071BBD288756E2003D55DE /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F3071BBE2887579D003D55DE /* HeaderComponent.swift */,
+				F3071BC0288758DB003D55DE /* GuideComponent.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,9 +207,12 @@
 				F3071BBC2887504F003D55DE /* FooterView.swift in Sources */,
 				F3071BBA28874A73003D55DE /* HeaderView.swift in Sources */,
 				F3071BB12887425C003D55DE /* AfricanbeautyModel.swift in Sources */,
+				F3071BBF2887579D003D55DE /* HeaderComponent.swift in Sources */,
 				F3071B9E288737E9003D55DE /* Africa_BeautyApp.swift in Sources */,
 				F3071BB42887430B003D55DE /* AfricabeautyData.swift in Sources */,
 				F3071BB8288743FC003D55DE /* CardView.swift in Sources */,
+				F3071BC1288758DB003D55DE /* GuideComponent.swift in Sources */,
+				F3071BC328875BEE003D55DE /* GuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

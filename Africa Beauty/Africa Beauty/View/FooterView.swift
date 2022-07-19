@@ -3,7 +3,9 @@
 //  Africa Beauty
 //
 //  Created by Erasmo J.F Da Silva on 19/07/22.
-//
+//  SwiftUI ♡ Better Apps. Less Code
+//  https://erasmojf.github.io/
+//  Fidju de Bideira de Feira de Caracol
 
 import SwiftUI
 
@@ -17,7 +19,15 @@ struct FooterView: View {
             Button(action: {
                 print("Success")
             }) {
-                
+                Text("Book Destination".uppercased())
+                    .font(.system(.subheadline, design: .rounded))
+                    .fontWeight(.heavy)
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 12)
+                    .accentColor(Color.pink)
+                    .background(
+                        Capsule().stroke(Color.green, lineWidth: 2)
+                    )
             }
             
             Spacer()
