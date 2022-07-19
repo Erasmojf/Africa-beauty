@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3071B9E288737E9003D55DE /* Africa_BeautyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071B9D288737E9003D55DE /* Africa_BeautyApp.swift */; };
+		F3071BA0288737E9003D55DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071B9F288737E9003D55DE /* ContentView.swift */; };
+		F3071BA2288737EC003D55DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3071BA1288737EC003D55DE /* Assets.xcassets */; };
+		F3071BA5288737EC003D55DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3071BA4288737EC003D55DE /* Preview Assets.xcassets */; };
+		F3071BAD288739C6003D55DE /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F3071BAC288739C6003D55DE /* Sounds */; };
+		F3071BAF28873A88003D55DE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3071BAE28873A87003D55DE /* Launch Screen.storyboard */; };
+		F3071BB12887425C003D55DE /* AfricanbeautyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BB02887425C003D55DE /* AfricanbeautyModel.swift */; };
+		F3071BB42887430B003D55DE /* AfricabeautyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BB32887430B003D55DE /* AfricabeautyData.swift */; };
+		F3071BB8288743FC003D55DE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BB7288743FC003D55DE /* CardView.swift */; };
+		F3071BBA28874A73003D55DE /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BB928874A73003D55DE /* HeaderView.swift */; };
+		F3071BBC2887504F003D55DE /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BBB2887504F003D55DE /* FooterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3071B9A288737E9003D55DE /* Africa Beauty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Africa Beauty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3071B9D288737E9003D55DE /* Africa_BeautyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_BeautyApp.swift; sourceTree = "<group>"; };
+		F3071B9F288737E9003D55DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3071BA1288737EC003D55DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3071BA4288737EC003D55DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3071BAB28873843003D55DE /* Africa-Beauty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Africa-Beauty-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F3071BAC288739C6003D55DE /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		F3071BAE28873A87003D55DE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F3071BB02887425C003D55DE /* AfricanbeautyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricanbeautyModel.swift; sourceTree = "<group>"; };
+		F3071BB32887430B003D55DE /* AfricabeautyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricabeautyData.swift; sourceTree = "<group>"; };
+		F3071BB7288743FC003D55DE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F3071BB928874A73003D55DE /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F3071BBB2887504F003D55DE /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3071B97288737E9003D55DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3071B91288737E9003D55DE = {
+			isa = PBXGroup;
+			children = (
+				F3071B9C288737E9003D55DE /* Africa Beauty */,
+				F3071B9B288737E9003D55DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3071B9B288737E9003D55DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3071B9A288737E9003D55DE /* Africa Beauty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3071B9C288737E9003D55DE /* Africa Beauty */ = {
+			isa = PBXGroup;
+			children = (
+				F3071BB6288743AB003D55DE /* View */,
+				F3071BB528874314003D55DE /* Data */,
+				F3071BB228874264003D55DE /* Model */,
+				F3071BAC288739C6003D55DE /* Sounds */,
+				F3071BAB28873843003D55DE /* Africa-Beauty-Info.plist */,
+				F3071B9D288737E9003D55DE /* Africa_BeautyApp.swift */,
+				F3071BA1288737EC003D55DE /* Assets.xcassets */,
+				F3071BA3288737EC003D55DE /* Preview Content */,
+				F3071BAE28873A87003D55DE /* Launch Screen.storyboard */,
+			);
+			path = "Africa Beauty";
+			sourceTree = "<group>";
+		};
+		F3071BA3288737EC003D55DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3071BA4288737EC003D55DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3071BB228874264003D55DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3071BB02887425C003D55DE /* AfricanbeautyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3071BB528874314003D55DE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F3071BB32887430B003D55DE /* AfricabeautyData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F3071BB6288743AB003D55DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3071B9F288737E9003D55DE /* ContentView.swift */,
+				F3071BB7288743FC003D55DE /* CardView.swift */,
+				F3071BB928874A73003D55DE /* HeaderView.swift */,
+				F3071BBB2887504F003D55DE /* FooterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3071B99288737E9003D55DE /* Africa Beauty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3071BA8288737EC003D55DE /* Build configuration list for PBXNativeTarget "Africa Beauty" */;
+			buildPhases = (
+				F3071B96288737E9003D55DE /* Sources */,
+				F3071B97288737E9003D55DE /* Frameworks */,
+				F3071B98288737E9003D55DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Africa Beauty";
+			productName = "Africa Beauty";
+			productReference = F3071B9A288737E9003D55DE /* Africa Beauty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3071B92288737E9003D55DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F3071B99288737E9003D55DE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F3071B95288737E9003D55DE /* Build configuration list for PBXProject "Africa Beauty" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3071B91288737E9003D55DE;
+			productRefGroup = F3071B9B288737E9003D55DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3071B99288737E9003D55DE /* Africa Beauty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3071B98288737E9003D55DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3071BAD288739C6003D55DE /* Sounds in Resources */,
+				F3071BA5288737EC003D55DE /* Preview Assets.xcassets in Resources */,
+				F3071BAF28873A88003D55DE /* Launch Screen.storyboard in Resources */,
+				F3071BA2288737EC003D55DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3071B96288737E9003D55DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3071BA0288737E9003D55DE /* ContentView.swift in Sources */,
+				F3071BBC2887504F003D55DE /* FooterView.swift in Sources */,
+				F3071BBA28874A73003D55DE /* HeaderView.swift in Sources */,
+				F3071BB12887425C003D55DE /* AfricanbeautyModel.swift in Sources */,
+				F3071B9E288737E9003D55DE /* Africa_BeautyApp.swift in Sources */,
+				F3071BB42887430B003D55DE /* AfricabeautyData.swift in Sources */,
+				F3071BB8288743FC003D55DE /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3071BA6288737EC003D55DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3071BA7288737EC003D55DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3071BA9288737EC003D55DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Africa Beauty/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Africa-Beauty-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.erasmojf.Africa-Beauty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3071BAA288737EC003D55DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Africa Beauty/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Africa-Beauty-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.erasmojf.Africa-Beauty";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3071B95288737E9003D55DE /* Build configuration list for PBXProject "Africa Beauty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3071BA6288737EC003D55DE /* Debug */,
+				F3071BA7288737EC003D55DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3071BA8288737EC003D55DE /* Build configuration list for PBXNativeTarget "Africa Beauty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3071BA9288737EC003D55DE /* Debug */,
+				F3071BAA288737EC003D55DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3071B92288737E9003D55DE /* Project object */;
+}
