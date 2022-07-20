@@ -21,6 +21,9 @@
 		F3071BBF2887579D003D55DE /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BBE2887579D003D55DE /* HeaderComponent.swift */; };
 		F3071BC1288758DB003D55DE /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BC0288758DB003D55DE /* GuideComponent.swift */; };
 		F3071BC328875BEE003D55DE /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BC228875BEE003D55DE /* GuideView.swift */; };
+		F3119884288835ED003AE7CB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119883288835EC003AE7CB /* InfoView.swift */; };
+		F311988628883AF9003AE7CB /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311988528883AF9003AE7CB /* TitleModifier.swift */; };
+		F3119889288840EB003AE7CB /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119888288840EB003AE7CB /* ButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		F3071BBE2887579D003D55DE /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
 		F3071BC0288758DB003D55DE /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
 		F3071BC228875BEE003D55DE /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		F3119883288835EC003AE7CB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		F311988528883AF9003AE7CB /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		F3119888288840EB003AE7CB /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 		F3071B9C288737E9003D55DE /* Africa Beauty */ = {
 			isa = PBXGroup;
 			children = (
+				F311988728883B6D003AE7CB /* Modifier */,
 				F3071BBD288756E2003D55DE /* Component */,
 				F3071BB6288743AB003D55DE /* View */,
 				F3071BB528874314003D55DE /* Data */,
@@ -118,6 +125,7 @@
 				F3071BB928874A73003D55DE /* HeaderView.swift */,
 				F3071BBB2887504F003D55DE /* FooterView.swift */,
 				F3071BC228875BEE003D55DE /* GuideView.swift */,
+				F3119883288835EC003AE7CB /* InfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +137,15 @@
 				F3071BC0288758DB003D55DE /* GuideComponent.swift */,
 			);
 			path = Component;
+			sourceTree = "<group>";
+		};
+		F311988728883B6D003AE7CB /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				F311988528883AF9003AE7CB /* TitleModifier.swift */,
+				F3119888288840EB003AE7CB /* ButtonModifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,9 +221,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3071BA0288737E9003D55DE /* ContentView.swift in Sources */,
+				F3119884288835ED003AE7CB /* InfoView.swift in Sources */,
 				F3071BBC2887504F003D55DE /* FooterView.swift in Sources */,
+				F311988628883AF9003AE7CB /* TitleModifier.swift in Sources */,
 				F3071BBA28874A73003D55DE /* HeaderView.swift in Sources */,
 				F3071BB12887425C003D55DE /* AfricanbeautyModel.swift in Sources */,
+				F3119889288840EB003AE7CB /* ButtonModifier.swift in Sources */,
 				F3071BBF2887579D003D55DE /* HeaderComponent.swift in Sources */,
 				F3071B9E288737E9003D55DE /* Africa_BeautyApp.swift in Sources */,
 				F3071BB42887430B003D55DE /* AfricabeautyData.swift in Sources */,
