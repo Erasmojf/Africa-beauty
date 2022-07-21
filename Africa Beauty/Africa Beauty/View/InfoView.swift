@@ -56,7 +56,7 @@ struct InfoView_Previews: PreviewProvider {
 struct AppInfoView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            RowAppInfoView(ItemOne: "Application", ItemTwo: "Honeymoon")
+            RowAppInfoView(ItemOne: "Application", ItemTwo: "Africa Honeymoon")
             RowAppInfoView(ItemOne: "Compatibility", ItemTwo: "iPhone and iPad")
             RowAppInfoView(ItemOne: "Developer", ItemTwo: "Erasmo J.F")
             RowAppInfoView(ItemOne: "Designer", ItemTwo: "Inocencia")

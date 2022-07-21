@@ -24,6 +24,7 @@
 		F3119884288835ED003AE7CB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119883288835EC003AE7CB /* InfoView.swift */; };
 		F311988628883AF9003AE7CB /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311988528883AF9003AE7CB /* TitleModifier.swift */; };
 		F3119889288840EB003AE7CB /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119888288840EB003AE7CB /* ButtonModifier.swift */; };
+		F3A71271288991CD00A6C08C /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A71270288991CD00A6C08C /* SymbolModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		F3119883288835EC003AE7CB /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		F311988528883AF9003AE7CB /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		F3119888288840EB003AE7CB /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		F3A71270288991CD00A6C08C /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			children = (
 				F311988528883AF9003AE7CB /* TitleModifier.swift */,
 				F3119888288840EB003AE7CB /* ButtonModifier.swift */,
+				F3A71270288991CD00A6C08C /* SymbolModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				F3119884288835ED003AE7CB /* InfoView.swift in Sources */,
 				F3071BBC2887504F003D55DE /* FooterView.swift in Sources */,
 				F311988628883AF9003AE7CB /* TitleModifier.swift in Sources */,
+				F3A71271288991CD00A6C08C /* SymbolModifier.swift in Sources */,
 				F3071BBA28874A73003D55DE /* HeaderView.swift in Sources */,
 				F3071BB12887425C003D55DE /* AfricanbeautyModel.swift in Sources */,
 				F3119889288840EB003AE7CB /* ButtonModifier.swift in Sources */,
