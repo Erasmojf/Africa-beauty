@@ -10,6 +10,27 @@
 import SwiftUI
 
 var africabeautyData: [Destination] = [
+  
+    Destination(
+      place: "Zanzibar",
+      country: "Tanzania",
+      image: "photo-zanzibar-tanzania"
+    ),
+    Destination(
+      place: "Anse Boileau",
+      country: "Seychelles",
+      image: "photo-seychelles"
+    ),
+    Destination(
+      place: "Lagos",
+      country: "Nigeria",
+      image: "photo-lagos-nigeria"
+    ),
+    Destination(
+      place: "Dakar",
+      country: "Senegal",
+      image: "photo-dakar"
+    ),
     Destination(
       place: "Veligandu",
       country: "Maldives",
