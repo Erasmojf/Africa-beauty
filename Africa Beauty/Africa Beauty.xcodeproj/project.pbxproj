@@ -11,7 +11,6 @@
 		F3071BA0288737E9003D55DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071B9F288737E9003D55DE /* ContentView.swift */; };
 		F3071BA2288737EC003D55DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3071BA1288737EC003D55DE /* Assets.xcassets */; };
 		F3071BA5288737EC003D55DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3071BA4288737EC003D55DE /* Preview Assets.xcassets */; };
-		F3071BAD288739C6003D55DE /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F3071BAC288739C6003D55DE /* Sounds */; };
 		F3071BAF28873A88003D55DE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3071BAE28873A87003D55DE /* Launch Screen.storyboard */; };
 		F3071BB12887425C003D55DE /* AfricanbeautyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BB02887425C003D55DE /* AfricanbeautyModel.swift */; };
 		F3071BB42887430B003D55DE /* AfricabeautyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3071BB32887430B003D55DE /* AfricabeautyData.swift */; };
@@ -26,6 +25,9 @@
 		F3119889288840EB003AE7CB /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119888288840EB003AE7CB /* ButtonModifier.swift */; };
 		F3A71271288991CD00A6C08C /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A71270288991CD00A6C08C /* SymbolModifier.swift */; };
 		F3A71274288999F300A6C08C /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A71273288999F300A6C08C /* CardTransition.swift */; };
+		F3A712772889A1DD00A6C08C /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A712762889A1DD00A6C08C /* PlaySound.swift */; };
+		F3A7127A2889A5AD00A6C08C /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3A712782889A5AD00A6C08C /* sound-rise.mp3 */; };
+		F3A7127B2889A5AD00A6C08C /* sound-click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3A712792889A5AD00A6C08C /* sound-click.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +37,6 @@
 		F3071BA1288737EC003D55DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3071BA4288737EC003D55DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3071BAB28873843003D55DE /* Africa-Beauty-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Africa-Beauty-Info.plist"; sourceTree = SOURCE_ROOT; };
-		F3071BAC288739C6003D55DE /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		F3071BAE28873A87003D55DE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F3071BB02887425C003D55DE /* AfricanbeautyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricanbeautyModel.swift; sourceTree = "<group>"; };
 		F3071BB32887430B003D55DE /* AfricabeautyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricabeautyData.swift; sourceTree = "<group>"; };
@@ -50,6 +51,9 @@
 		F3119888288840EB003AE7CB /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		F3A71270288991CD00A6C08C /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 		F3A71273288999F300A6C08C /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		F3A712762889A1DD00A6C08C /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		F3A712782889A5AD00A6C08C /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		F3A712792889A5AD00A6C08C /* sound-click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-click.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +86,14 @@
 		F3071B9C288737E9003D55DE /* Africa Beauty */ = {
 			isa = PBXGroup;
 			children = (
+				F3A712752889A1BC00A6C08C /* Helper */,
 				F3A71272288999C300A6C08C /* Extension */,
 				F311988728883B6D003AE7CB /* Modifier */,
 				F3071BBD288756E2003D55DE /* Component */,
 				F3071BB6288743AB003D55DE /* View */,
 				F3071BB528874314003D55DE /* Data */,
 				F3071BB228874264003D55DE /* Model */,
-				F3071BAC288739C6003D55DE /* Sounds */,
+				F3A7127C2889A5D800A6C08C /* Sound */,
 				F3071BAB28873843003D55DE /* Africa-Beauty-Info.plist */,
 				F3071B9D288737E9003D55DE /* Africa_BeautyApp.swift */,
 				F3071BA1288737EC003D55DE /* Assets.xcassets */,
@@ -162,6 +167,23 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		F3A712752889A1BC00A6C08C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F3A712762889A1DD00A6C08C /* PlaySound.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F3A7127C2889A5D800A6C08C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F3A712792889A5AD00A6C08C /* sound-click.mp3 */,
+				F3A712782889A5AD00A6C08C /* sound-rise.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,8 +242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3071BAD288739C6003D55DE /* Sounds in Resources */,
+				F3A7127B2889A5AD00A6C08C /* sound-click.mp3 in Resources */,
 				F3071BA5288737EC003D55DE /* Preview Assets.xcassets in Resources */,
+				F3A7127A2889A5AD00A6C08C /* sound-rise.mp3 in Resources */,
 				F3071BAF28873A88003D55DE /* Launch Screen.storyboard in Resources */,
 				F3071BA2288737EC003D55DE /* Assets.xcassets in Resources */,
 			);
@@ -243,6 +266,7 @@
 				F3071BBA28874A73003D55DE /* HeaderView.swift in Sources */,
 				F3071BB12887425C003D55DE /* AfricanbeautyModel.swift in Sources */,
 				F3119889288840EB003AE7CB /* ButtonModifier.swift in Sources */,
+				F3A712772889A1DD00A6C08C /* PlaySound.swift in Sources */,
 				F3071BBF2887579D003D55DE /* HeaderComponent.swift in Sources */,
 				F3071B9E288737E9003D55DE /* Africa_BeautyApp.swift in Sources */,
 				F3071BB42887430B003D55DE /* AfricabeautyData.swift in Sources */,

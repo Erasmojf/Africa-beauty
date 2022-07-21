@@ -16,7 +16,7 @@ struct HeaderView: View {
     var body: some View {
         HStack {
             Button(action: {
-//                print("Information")
+                playSound(sound: "sound-click", type: "mp3")
                 self.showInfoView.toggle()
             }) {
                 Image(systemName: "info.circle")
@@ -37,7 +37,7 @@ struct HeaderView: View {
             
             Button(action: {
                 //ACTION
-
+                playSound(sound: "sound-click", type: "mp3")
                 self.showGuideView.toggle()
             }) {
                 Image(systemName: "questionmark.circle")
