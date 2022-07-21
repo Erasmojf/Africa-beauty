@@ -32,6 +32,16 @@ var africabeautyData: [Destination] = [
       image: "photo-dakar"
     ),
     Destination(
+      place: "Nairóbi",
+      country: "kenya",
+      image: "photo-nairobi-kenya"
+    ),
+    Destination(
+      place: "Harare",
+      country: "Zimbabwe ",
+      image: "photo-zimbabwe-harare"
+    ),
+    Destination(
       place: "Veligandu",
       country: "Maldives",
       image: "photo-veligandu-island-maldives"
