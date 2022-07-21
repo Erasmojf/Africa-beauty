@@ -25,6 +25,7 @@
 		F311988628883AF9003AE7CB /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F311988528883AF9003AE7CB /* TitleModifier.swift */; };
 		F3119889288840EB003AE7CB /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3119888288840EB003AE7CB /* ButtonModifier.swift */; };
 		F3A71271288991CD00A6C08C /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A71270288991CD00A6C08C /* SymbolModifier.swift */; };
+		F3A71274288999F300A6C08C /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A71273288999F300A6C08C /* CardTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		F311988528883AF9003AE7CB /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		F3119888288840EB003AE7CB /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		F3A71270288991CD00A6C08C /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		F3A71273288999F300A6C08C /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		F3071B9C288737E9003D55DE /* Africa Beauty */ = {
 			isa = PBXGroup;
 			children = (
+				F3A71272288999C300A6C08C /* Extension */,
 				F311988728883B6D003AE7CB /* Modifier */,
 				F3071BBD288756E2003D55DE /* Component */,
 				F3071BB6288743AB003D55DE /* View */,
@@ -149,6 +152,14 @@
 				F3A71270288991CD00A6C08C /* SymbolModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		F3A71272288999C300A6C08C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F3A71273288999F300A6C08C /* CardTransition.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +238,7 @@
 				F3119884288835ED003AE7CB /* InfoView.swift in Sources */,
 				F3071BBC2887504F003D55DE /* FooterView.swift in Sources */,
 				F311988628883AF9003AE7CB /* TitleModifier.swift in Sources */,
+				F3A71274288999F300A6C08C /* CardTransition.swift in Sources */,
 				F3A71271288991CD00A6C08C /* SymbolModifier.swift in Sources */,
 				F3071BBA28874A73003D55DE /* HeaderView.swift in Sources */,
 				F3071BB12887425C003D55DE /* AfricanbeautyModel.swift in Sources */,
