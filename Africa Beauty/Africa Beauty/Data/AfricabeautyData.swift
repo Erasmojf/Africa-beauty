@@ -52,6 +52,11 @@ var africabeautyData: [Destination] = [
       image: "photo-marrocos-rabat"
     ),
     Destination(
+      place: "Luanda",
+      country: "Angola",
+      image: "photo-luanda-angola"
+    ),
+    Destination(
       place: "Veligandu",
       country: "Maldives",
       image: "photo-veligandu-island-maldives"

@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "logo-honeymoon-black.pdf",
+      "filename" : "logo-honeymoon-pink.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,7 +12,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "logo-honeymoon-black-1.pdf",
+      "filename" : "logo-honeymoon-pink-1.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -23,7 +23,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "logo-honeymoon-dark.pdf",
+      "filename" : "logo-honeymoon-pink-dark.pdf",
       "idiom" : "universal",
       "scale" : "1x"
     },
